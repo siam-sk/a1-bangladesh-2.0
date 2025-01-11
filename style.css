@@ -2,6 +2,7 @@
 
 * {
     font-family: "Fira Sans", serif;
+    /* background-color: #F5F5F5; */
 }
 
 /* Shared Styles */
@@ -91,4 +92,32 @@ nav button {
     padding: 11px 20px;
     border: none;
     border-radius: 8px;
+}
+
+.news {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.article-1 {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+    background-color: #F1F1F3;
+    border-radius: 15px;
+    margin-bottom: 24px;
+}
+.article-1 img {
+    border-radius: 15px;
+}
+.article-2 {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+    background-color: #F1F1F3;
+    border-radius: 15px;
+}
+.article-2 img {
+    border-radius: 15px;
 }
