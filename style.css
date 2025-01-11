@@ -56,10 +56,15 @@ nav button {
 }
 .banner p {
     color: rgba(14, 14, 14, 50%);
+    font-size: 24px;
     font-weight: 500;
+    margin: 0;
+    padding-bottom: 10px;
 }
 .banner h1 {
     font-size: 56px;
+    margin: 0;
+    padding-bottom: 10px;
 }
 .banner button {
     padding: 10px 25px;
@@ -183,7 +188,7 @@ nav button {
     border-radius: 10px;
 }
 .donate .amount:hover{
-    background-color: ghostwhite;
+    background-color: #C6E4D6;
     cursor: pointer;
 }
 .donate .highlight {
