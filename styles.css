@@ -4,18 +4,44 @@
     font-family: "Fira Sans", serif;
 }
 
+/* Shared Styles */
+.btn-primary {
+    background-color: #006A50;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     margin: 0 160px;
+    margin-bottom: 20px;
 }
 nav button {
     height: 35px;
     border: 1px solid #006A50;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: #FFFFFF;
     color: #006A50;
     font-weight: 500;
     padding: 5px 20px;
+}
+
+.banner {
+    margin: 0 160px;
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    background-color: #C6E4D6;
+    border-radius: 10px;
+}
+
+.banner p {
+    opacity: 50%;
+    font-weight: 500;
 }
