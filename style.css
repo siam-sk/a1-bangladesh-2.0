@@ -31,7 +31,9 @@ nav button {
 }
 
 .banner {
-    margin: 0 160px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 80px;
     padding: 80px 100px;
     display: flex;
     justify-content: space-between;
@@ -40,8 +42,53 @@ nav button {
     background-color: #C6E4D6;
     border-radius: 10px;
 }
-
 .banner p {
     opacity: 50%;
     font-weight: 500;
+}
+
+.vision {
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 80px;
+}
+.vision .cards {
+    display: flex;
+    gap: 24px;
+}
+.vision .cards .card-1 {
+    padding: 32px;
+    border-radius: 8px;
+    background-color: rgba(84, 144, 245, 20%);
+}
+.vision .cards .card-1 button {
+    background-color: #5490f5;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+}
+.vision .cards .card-2 {
+    padding: 32px;
+    border-radius: 8px;
+    background-color: #C6E4D6;
+}
+.vision .cards .card-2 button {
+    background-color: #09A15C;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+}
+.vision .cards .card-3 {
+    padding: 24px;
+    border-radius: 8px;
+    background-color: #F7EBCF;
+}
+.vision .cards .card-3 button {
+    background-color: #FFC239;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
 }
