@@ -5,6 +5,10 @@
     /* background-color: #F5F5F5; */
 }
 
+body {
+    background-color: #F1F1F3;
+}
+
 /* Shared Styles */
 .btn-primary {
     background-color: #006A50;
@@ -44,8 +48,11 @@ nav button {
     border-radius: 10px;
 }
 .banner p {
-    opacity: 50%;
+    color: rgba(14, 14, 14, 50%);
     font-weight: 500;
+}
+.banner button {
+    padding: 10px 25px;
 }
 
 .vision {
@@ -64,7 +71,7 @@ nav button {
 }
 .vision .cards .card-1 button {
     background-color: #5490f5;
-    color: white;
+    color: FFFFFF;
     padding: 11px 20px;
     border: none;
     border-radius: 8px;
@@ -76,7 +83,7 @@ nav button {
 }
 .vision .cards .card-2 button {
     background-color: #09A15C;
-    color: white;
+    color: FFFFFF;
     padding: 11px 20px;
     border: none;
     border-radius: 8px;
@@ -88,7 +95,7 @@ nav button {
 }
 .vision .cards .card-3 button {
     background-color: #FFC239;
-    color: white;
+    color: FFFFFF;
     padding: 11px 20px;
     border: none;
     border-radius: 8px;
@@ -97,27 +104,57 @@ nav button {
 .news {
     margin-left: 160px;
     margin-right: 160px;
+    margin-bottom: 80px;
 }
-.article-1 {
+.news .article-1 {
     display: flex;
     align-items: center;
     gap: 32px;
     padding: 48px;
-    background-color: #F1F1F3;
+    background-color: #FFFFFF;
     border-radius: 15px;
     margin-bottom: 24px;
 }
-.article-1 img {
+.news .article-1 img {
     border-radius: 15px;
 }
-.article-2 {
+.news .article-2 {
     display: flex;
     align-items: center;
     gap: 32px;
     padding: 48px;
-    background-color: #F1F1F3;
+    background-color: #FFFFFF;
     border-radius: 15px;
 }
-.article-2 img {
+.news .article-2 img {
     border-radius: 15px;
+}
+
+.donate {
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.donate .amounts {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.donate .amount {
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.donate .highlight {
+    background-color: #C6E4D6;
+}
+.donate input{
+    padding: 20px 40px;
+    width: 480px;
+    margin-bottom: 32px;
+}
+.donate button {
+    padding: 15px;
 }
