@@ -21,6 +21,9 @@ button:hover {
     cursor: pointer;
     font-weight: bold;
 }
+p {
+    color: rgba(14, 14, 14,70%);
+}
 
 nav {
     display: flex;
@@ -127,6 +130,10 @@ nav button {
     background-image: url(assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: 25px 35px;
+    color: rgba(14, 14, 14,80%);
+}
+.quotes #title {
+    color: rgba(14, 14, 14,60%);
 }
 
 .news {
