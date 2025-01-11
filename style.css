@@ -177,6 +177,7 @@ nav button {
 }
 .donate .amount:hover{
     background-color: ghostwhite;
+    cursor: pointer;
 }
 .donate .highlight {
     background-color: #C6E4D6;
@@ -214,4 +215,18 @@ nav button {
 .newsletter form button {
     padding: 0 30px;
     border-radius: 0 8px 8px 0;
+}
+
+footer {
+    padding: 50px 160px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+footer h3 {
+    border-bottom: 1px groove rgba(14, 14, 14,10%);
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+}
+footer img {
+    padding: 5px;
 }
