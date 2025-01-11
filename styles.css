@@ -3,3 +3,19 @@
 * {
     font-family: "Fira Sans", serif;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0 160px;
+}
+nav button {
+    height: 35px;
+    border: 1px solid #006A50;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #006A50;
+    font-weight: 500;
+    padding: 5px 20px;
+}
