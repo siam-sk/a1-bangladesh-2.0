@@ -152,9 +152,35 @@ nav button {
 }
 .donate input{
     padding: 20px 40px;
-    width: 480px;
+    width: 680px;
     margin-bottom: 32px;
 }
 .donate button {
-    padding: 15px;
+    padding: 15px 25px;
+}
+
+.newsletter{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 80px 100px;
+    border-radius: 10px;
+    background-color: #C6E4D6;
+}
+.newsletter form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0;
+}
+.newsletter form input {
+    padding: 18px 40px;
+    width: 420px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+}
+.newsletter form button {
+    padding: 0 30px;
+    border-radius: 0 8px 8px 0;
 }
